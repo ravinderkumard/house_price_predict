@@ -1,0 +1,22 @@
+artifact_path: /Users/ravinderkumar/Work/upskill/AI/MLOps/house_price_predict/mlruns/1/models/m-608b988279be43358fccf54dbdec29e8/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.5
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+mlflow_version: 3.8.1
+model_id: m-608b988279be43358fccf54dbdec29e8
+model_size_bytes: 5521237
+model_uuid: m-608b988279be43358fccf54dbdec29e8
+prompts: null
+run_id: f35f0d481adc4e0093424e6e596a7863
+utc_time_created: '2025-12-28 05:29:30.068033'

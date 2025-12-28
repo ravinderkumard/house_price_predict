@@ -1,0 +1,14 @@
+# Core ML
+scikit-learn
+pandas
+numpy
+
+# MLOps tools
+mlflow
+fastapi
+uvicorn
+python-multipart
+
+# Utilities
+python-dotenv
+joblib
