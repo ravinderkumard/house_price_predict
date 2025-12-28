@@ -1,0 +1,13 @@
+timestamp,endpoint,status_code,response_time,healthy,prediction_successful,error
+2025-12-28T12:17:01.208513,health,200.0,0.005006,True,,
+2025-12-28T12:17:01.222523,predict,200.0,0.013978004455566406,,True,
+2025-12-28T12:17:11.231421,health,200.0,0.002569,True,,
+2025-12-28T12:17:11.241942,predict,200.0,0.010449886322021484,,True,
+2025-12-28T12:17:21.249704,health,200.0,0.004316,True,,
+2025-12-28T12:17:21.263241,predict,200.0,0.013421773910522461,,True,
+2025-12-28T12:17:31.281673,health,200.0,0.007722,True,,
+2025-12-28T12:17:31.301885,predict,200.0,0.02007293701171875,,True,
+2025-12-28T12:17:41.320143,health,200.0,0.007686,True,,
+2025-12-28T12:17:41.345756,predict,200.0,0.025514841079711914,,True,
+2025-12-28T12:17:51.356568,health,,,False,,"HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError(""HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [Errno 61] Connection refused""))"
+2025-12-28T12:17:51.358695,predict,,,,False,"HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /predict (Caused by NewConnectionError(""HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [Errno 61] Connection refused""))"
